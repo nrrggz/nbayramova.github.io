@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Nargiz Bayramova"/>
+    <meta name="description" content="This page contains all contact info about me."/>
+    <title>Contact Me!</title>
+    <link rel="icon" href="images/developer.png"/>
+    <link rel="stylesheet" href="css/contact.css"/>
+  </head>
+
+  <body>
+      <h1>I'd love to hear from you!</h1>
+
+      <form action="contact.html" method="post">
+
+        <div class="contact-box">
+          <form action="https://formsubmit.co/your@email.com" method="POST" method="POST">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="azerbaijan">Azerbaijan</option>
+              <option value="russia">Russia</option>
+              <option value="turkey">Turkey</option>
+              <option value="germany">Germany</option>
+              <option value="france">France</option>
+              <option value="italy">Italy</option>
+              <option value="spain">Spain</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="uk">UK</option>
+            </select>
+
+            <br><br>
+
+            <fieldset>
+              <legend>What did you like most about this page?</legend>
+                <input type="checkbox" name="features" id="simplicity" value="simplicity" />
+                <label for="simplicity">Simplicity</label>
+                <input type="checkbox" name="features" id="functionality" value="functionality" />
+                <label for="functionality">Functionality</label>
+                <input type="checkbox" name="features" id="easy to use" value="easy to use" />
+                <label for="easy to use">Easy To Use</label>
+            </fieldset><br><br>
+    
+            <fieldset>
+              <legend>What would you like to update in this web page?</legend>
+                <input type="radio" name="features" id="content" value="content" />
+                <label for="content">Content</label>
+                <input type="radio" name="features" id="design" value="design" />
+                <label for="design">Design</label>
+            </fieldset><br><br>
+    
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Web Development">
+            <br><br>
+    
+            <fieldset>
+              <legend>Send Me A Note</legend>
+              <textarea name="message" id="message" cols="45" rows="10" placeholder=" What you would like to discuss with me? .."></textarea>
+            </fieldset><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+          </form>
+        </div>
+      </form>
+  </body>
+</html>
+
+
