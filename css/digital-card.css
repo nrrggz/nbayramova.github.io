@@ -92,6 +92,8 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    
 }
 
 .messenger--link--icon {
@@ -114,7 +116,7 @@ main {
     border: 1px solid #D1D5DB;
     text-align: center;
     color:#100F0F ;
-    
+    text-decoration: none;
 }
 
 .messenger--link:nth-child(2) {
@@ -123,6 +125,7 @@ main {
     color: red;
     text-align: center;
     vertical-align: middle;
+    text-decoration: none;
     
 }
 
